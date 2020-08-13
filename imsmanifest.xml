@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<manifest identifier="SampleContentManifest" version="1.2"
+ xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+ xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2
+ imscp_rootv1p1p2.xsd
+ http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+ http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+   <schema>ADL SCORM</schema>
+   <schemaversion>1.2</schemaversion>
+   <adlcp:location>imsmetadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="AO01">
+   <organization identifier="AO01">
+     <title>História - SGº Série</title>
+       <item identifier="AO01_O01" identifierref="O01" isvisible="true">
+         <title>História - SGº Série</title>
+       </item>
+   </organization>
+ </organizations>
+  <resources>
+    <resource identifier="O01" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+    </resource>
+  </resources>
+</manifest>

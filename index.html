@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1; maximum-scale=2.0; user-scalable=0;">
+    <meta name="author" content="Pearson Education">
+    <title>Questionário</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
+<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+
+<body>
+
+<div class="container-fluid">
+    <div class="row  row-header">
+        <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
+            <div class="col-lg-1 col-xs-1 col-sm-2 logo col-md-1">
+            </div>
+            <div class="col-lg-10 col-xs-8 col-sm-10 col-md-10 question-index pull-center" id="question-index">
+                <H3><span id="index-question">Carregando...</span></H3>
+            </div>
+            <div class="col-lg-1 col-xs-1 col-sm-2 col-md-1 menu-sandwich pull-right" data-toggle="popover"
+                 data-content=""
+                 data-placement="bottom"
+
+            >
+            </div>
+        </div>
+	</div>
+    <div class="row">
+		<div>
+            <div class="body-question">
+                <div class="col-lg-4 col-md-4 col-sm-3 visible-lg visible-sm visible-md"></div>
+                <div class="content-center col-md-2 col-lg-2 col-sm-3 col-xs-12 carousel" id="carousel">
+                    <div class="carousel-inner" role="listbox">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 visible-lg visible-sm visible-md"></div>
+            </div>
+        </div>
+	</div>
+    <div class="row row-footer">
+        <div class="col-lg-4 col-md-4 col-sm-3 visible-lg visible-sm visible-md"></div>
+            <div class=" col-md-2 col-lg-2 col-sm-3 col-xs-12" style="margin-top: 10px">
+
+                <div class="content-footer">
+
+                        <div class="navButton navleft carousel-control"  role="button"></div>
+
+                        <div class="result">
+                            <div class="resultAnswer">
+                                Veriﬁcar
+                            </div>
+
+                            <p class="tries">0/2</p>
+                        </div>
+                        <div class="returnFalse">
+                            <p class="wrong">Resposta errada.</p>
+                            <p><span id="phraseAux"></span></p>
+                        </div>
+                        <div class="returnTrue">
+                            <p class="correct">Resposta certa.</p>
+                            <p>Parabéns!</p>
+                        </div>
+                        <div class="navButton flip navright carousel-control" role="button"></div>
+
+                </div>
+            </div>
+        <div class="col-lg-4 col-md-4 col-sm-4  col-xs-5 visible-lg visible-sm visible-md"></div>
+    </div>
+</div>
+</body>
+
+<script src="js/jquery/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="js/bin/main.js"></script>
+<script src="js/bin/quest.js"></script>
+<script src="js/bin/SCORM_API_wrapper.js"></script>
+<script src="js/bin/config.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+</html>
